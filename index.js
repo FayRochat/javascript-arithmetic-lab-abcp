@@ -17,5 +17,6 @@ function dec(n){
   return n-1;
 }
 function makeInt(n){
+  if 
   return x >= 0 ? Math.floor(x) : Math.ceil(x);
 }
