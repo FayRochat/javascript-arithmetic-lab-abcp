@@ -17,6 +17,8 @@ function dec(n){
   return n-1;
 }
 function makeInt(n){
-  return x >= 0 ? Math.floor(x) : Math.ceil(x);
-  
+  return parseInt(n);
+}
+function preserveDecimal(n){
+  return parseFloat(n);
 }
